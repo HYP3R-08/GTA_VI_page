@@ -107,6 +107,17 @@ main {
       @apply mt-40 md:mt-60 2xl:mt-44 3xl:top-48;
     }
   }
+  .vice-city-message {
+    @apply absolute inset-0 w-full h-dvh overflow-hidden z-20 opacity-100;
+
+    .vice-city-logo {
+      @apply 2xl:w-72 3xl:w-80 md:w-60 w-48 absolute xs:top-[9.5rem] sm:top-[12.8rem] md:top-[8.5rem] 2xl:top-44 3xl:top-48 left-1/2 -translate-x-1/2;
+    }
+
+    .text-wrapper {
+      @apply mt-40 md:mt-60 2xl:mt-44 3xl:top-48;
+    }
+  }
   .jason {
     @apply relative z-10 lg:ps-40 2xl:ps-80 ps-10 py-40 mt-60 flex lg:flex-row flex-col justify-between gap-5 w-dvw overflow-x-hidden;
 
@@ -241,6 +252,12 @@ main {
 }
 
 .entrance-message {
+  mask-image: radial-gradient(circle at 50% 100vh, black 0%, transparent 0%);
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+}
+
+.vice-city-message {
   mask-image: radial-gradient(circle at 50% 100vh, black 0%, transparent 0%);
   mask-repeat: no-repeat;
   mask-size: 100% 100%;
