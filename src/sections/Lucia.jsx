@@ -8,8 +8,8 @@ const Lucia = () => {
     gsap.timeline({
       scrollTrigger: {
         trigger: '.lucia-life',
-        start: 'top 80%',
-        end: '10% center',
+        start: 'top 90%',
+        end: '20% center',
         scrub: 2,
       }
     }).to('.second-vd', { opacity: 0, duration: 1, ease: 'power1.inOut' });
