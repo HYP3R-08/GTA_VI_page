@@ -12,7 +12,6 @@ const PostCard = () => {
                 start: 'top center',
                 end: 'bottom center',
                 scrub: true,
-                markers: true
             }
         })
 
